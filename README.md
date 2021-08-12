@@ -1,11 +1,5 @@
-{
- "cells": [
-  {
-   "cell_type": "markdown",
-   "metadata": {
-    "collapsed": false
-   },
-   "source": [
+
+ 
     "# 医学图像分割初试\n",
     "\n",
     "1、识别出病理图片的癌症类别\n",
@@ -109,25 +103,4 @@
    ]
   }
  ],
- "metadata": {
-  "kernelspec": {
-   "display_name": "PaddlePaddle 2.1.2 (Python 3.5)",
-   "language": "python",
-   "name": "py35-paddle1.2.0"
-  },
-  "language_info": {
-   "codemirror_mode": {
-    "name": "ipython",
-    "version": 3
-   },
-   "file_extension": ".py",
-   "mimetype": "text/x-python",
-   "name": "python",
-   "nbconvert_exporter": "python",
-   "pygments_lexer": "ipython3",
-   "version": "3.7.4"
-  }
- },
- "nbformat": 4,
- "nbformat_minor": 1
-}
+ 
