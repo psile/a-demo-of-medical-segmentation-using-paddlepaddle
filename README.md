@@ -1,7 +1,7 @@
 # deeplearning/medical segmentation
 
 first solve medical segmentation problem using paddlepaddle
-
+大二时用paddlepaddle做的医学图像分割的一个小demo
 
    # 一、项目背景,
     "医学影像检测任务重，复杂，如果能用计算机辅助检测，结果必定事半功倍",
@@ -78,9 +78,11 @@ first solve medical segmentation problem using paddlepaddle
     
    # 四、效果展示,
     "分割：,
-    "![](https://ai-studio-static-online.cdn.bcebos.com/85eb45763992481387af53329cb901a125d06019918744d0a8c9e086dfd0023b)",
+    ![image](https://user-images.githubusercontent.com/74948632/212295103-ee0a36ac-09b9-4588-bb31-2aca2d4804ac.png)
+,
     "分类\n",
-    "![](https://ai-studio-static-online.cdn.bcebos.com/669337fc50d347c3a8b1b900dbf4ae7ccdc5674b385743f9a299d7a4ce86cffb)",
+   ![image](https://user-images.githubusercontent.com/74948632/212295151-4b0aa80a-7829-4e5c-9ba2-ab7c2ecda63e.png)
+,
     
     
    # 五、总结与升华,
