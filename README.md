@@ -77,10 +77,10 @@ first solve medical segmentation problem using paddlepaddle
                use_vdl=True)
     
    # 四、效果展示,
-    "分割：,
+    
     ![image](https://user-images.githubusercontent.com/74948632/212295103-ee0a36ac-09b9-4588-bb31-2aca2d4804ac.png)
 ,
-    "分类\n",
+    
    ![image](https://user-images.githubusercontent.com/74948632/212295151-4b0aa80a-7829-4e5c-9ba2-ab7c2ecda63e.png)
 ,
     
