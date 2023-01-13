@@ -2,35 +2,16 @@
 
 first solve medical segmentation problem using paddlepaddle
 
-{
- "cells": [
-  {
-   "cell_type": "markdown",
-   "metadata": {
-    "collapsed": false
-   },
-   "source": [
-    "# 医学图像分割初试\n",
-    "\n",
-    "1、识别出病理图片的癌症类别\n",
-    "2、病理图片的病灶分割\n",
-    "\n",
-    "unet3+初步尝试医学图像分割\n",
-    "paddlex mobilenetv3 分类模型分类\n",
-    "\n",
-    "# 一、项目背景\n",
+
+    "# 一、项目背景",
     "医学影像检测任务重，复杂，如果能用计算机辅助检测，结果必定事半功倍\n",
-    "\n",
-    "\n",
-    "\n",
-    "\n",
-    "# 二、数据集简介\n",
-    "\n",
+   
+    "# 二、数据集简介",
+    
     "江苏省大数据开发与应用医疗卫生赛道数据集\n",
-    "\n",
+   
     "## 1.数据加载和预处理\n",
-    "\n",
-    "\n",
+    
     "构建训练集\n",
     "train_transforms = [\n",
     "    T.RandomHorizontalFlip(),   水平翻转\n",
@@ -40,7 +21,7 @@ first solve medical segmentation problem using paddlepaddle
     "    T.RandomDistort(),   随机扭曲\n",
     "    T.Resize(target_size=(256, 256))   这里为了加快速度，改为256x256\n",
     "    T.Normalize()   归一化\n",
-    "]\n",
+    "],
     "train_dataset = Dataset(\n",
     "    transforms=train_transforms,\n",
     "    dataset_root='train',\n",
@@ -104,34 +85,10 @@ first solve medical segmentation problem using paddlepaddle
     "\n",
     "\n",
     "# 五、总结与升华\n",
-    "\n",
+    
     "医学图像分割初步尝试，继续加油\n",
-    "\n",
+    
     "# 个人简介\n",
-    "\n",
+    
     "西南大学2019级本科生，医疗图像方向，持续努力"
    ]
-  }
- ],
- "metadata": {
-  "kernelspec": {
-   "display_name": "PaddlePaddle 2.1.2 (Python 3.5)",
-   "language": "python",
-   "name": "py35-paddle1.2.0"
-  },
-  "language_info": {
-   "codemirror_mode": {
-    "name": "ipython",
-    "version": 3
-   },
-   "file_extension": ".py",
-   "mimetype": "text/x-python",
-   "name": "python",
-   "nbconvert_exporter": "python",
-   "pygments_lexer": "ipython3",
-   "version": "3.7.4"
-  }
- },
- "nbformat": 4,
- "nbformat_minor": 1
-}
