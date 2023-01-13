@@ -3,16 +3,16 @@
 first solve medical segmentation problem using paddlepaddle
 
 
-    "# 一、项目背景",
+    # 一、项目背景,
     "医学影像检测任务重，复杂，如果能用计算机辅助检测，结果必定事半功倍\n",
    
-    "# 二、数据集简介",
+    # 二、数据集简介,
     
     "江苏省大数据开发与应用医疗卫生赛道数据集\n",
    
-    "## 1.数据加载和预处理\n",
+    ## 1.数据加载和预处理,
     
-    "构建训练集\n",
+    "构建训练集",
     "train_transforms = [\n",
     "    T.RandomHorizontalFlip(),   水平翻转\n",
     "    T.RandomVerticalFlip(),  垂直翻转\n",
@@ -45,7 +45,7 @@ first solve medical segmentation problem using paddlepaddle
     ")\n",
     "\n",
     "\n",
-    "# 三、模型选择和开发\n",
+    # 三、模型选择和开发
     "\n",
     "Unet3+网络：\n",
     "train(\n",
@@ -61,8 +61,7 @@ first solve medical segmentation problem using paddlepaddle
     "    num_workers=0,\n",
     "    losses=losses,\n",
     "    use_vdl=True)\n",
-    " \n",
-    "\n",
+    
     "mobilenetv3 分类模型：\n",
     "\n",
     "num_classes = len(train_dataset.labels)\n",
@@ -77,18 +76,18 @@ first solve medical segmentation problem using paddlepaddle
     "            save_dir='output/mobilenetv3_large_ssld',\n",
     "            use_vdl=True)\n",
     "\n",
-    "# 四、效果展示\n",
+    # 四、效果展示,
     "分割：\n",
-    "![](https://ai-studio-static-online.cdn.bcebos.com/85eb45763992481387af53329cb901a125d06019918744d0a8c9e086dfd0023b)\n",
+    ![](https://ai-studio-static-online.cdn.bcebos.com/85eb45763992481387af53329cb901a125d06019918744d0a8c9e086dfd0023b),
     "分类\n",
-    "![](https://ai-studio-static-online.cdn.bcebos.com/669337fc50d347c3a8b1b900dbf4ae7ccdc5674b385743f9a299d7a4ce86cffb)\n",
+    ![](https://ai-studio-static-online.cdn.bcebos.com/669337fc50d347c3a8b1b900dbf4ae7ccdc5674b385743f9a299d7a4ce86cffb),
     "\n",
     "\n",
-    "# 五、总结与升华\n",
+    # 五、总结与升华,
     
     "医学图像分割初步尝试，继续加油\n",
     
-    "# 个人简介\n",
+    # 个人简介,
     
     "西南大学2019级本科生，医疗图像方向，持续努力"
    ]
