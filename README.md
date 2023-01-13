@@ -1,5 +1,5 @@
-# deeplearning/medical segmentation
-
+# deeplearning/ a demo of medical segmentation using paddlepaddle
+ 
 first solve medical segmentation problem using paddlepaddle
 大二时用paddlepaddle做的医学图像分割的一个小demo
 
