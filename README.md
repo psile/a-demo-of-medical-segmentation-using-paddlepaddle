@@ -78,9 +78,9 @@ first solve medical segmentation problem using paddlepaddle
     
    # 四、效果展示,
     "分割：,
-    ![](https://ai-studio-static-online.cdn.bcebos.com/85eb45763992481387af53329cb901a125d06019918744d0a8c9e086dfd0023b),
+    "![](https://ai-studio-static-online.cdn.bcebos.com/85eb45763992481387af53329cb901a125d06019918744d0a8c9e086dfd0023b)",
     "分类\n",
-    ![](https://ai-studio-static-online.cdn.bcebos.com/669337fc50d347c3a8b1b900dbf4ae7ccdc5674b385743f9a299d7a4ce86cffb),
+    "![](https://ai-studio-static-online.cdn.bcebos.com/669337fc50d347c3a8b1b900dbf4ae7ccdc5674b385743f9a299d7a4ce86cffb)",
     
     
    # 五、总结与升华,
